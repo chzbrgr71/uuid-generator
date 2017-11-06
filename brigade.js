@@ -1,3 +1,3 @@
 events.on("push", function(e, project) {
-    console.log("received push for commit " + e.commit)
+    console.log("chzbrgr71 received push for commit " + e.commit)
   })
