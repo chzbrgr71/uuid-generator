@@ -5,6 +5,7 @@ events.on("push", function(e, project) {
   
     // Create a new job
     var node = new Job("test-runner")
+    node.storage.enabled = false
   
     // We want our job to run the stock Docker Python 3 image
     node.image = "python:3"
